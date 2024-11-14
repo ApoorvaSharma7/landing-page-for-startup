@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-image: url(https://img.freepik.com/free-photo/thick-twirling-smoke-pattern-corner-black-background_23-2148092641.jpg?semt=ais_hybrid);
+            background-size:cover;
+            background-position:center;
+            background-repeat: no-repeat;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color: aliceblue;
+        }
+        label{
+            display:block;
+            margin-bottom:10px;
+        }
+        div{
+            background-color : rgba(90,0,0,0.6);
+            border-radius:10px;
+            padding:50px;
+            width:400px;
+        }
+        input[type="text"],input[type="email"],input[type="password"],input[type=name],select,textarea{
+            width:100%;
+            padding:10px 20px;
+            border:none;
+            border-radius:5px; 
+            
+        }
+        button[type="submit"]{
+            background-color:rgb(193, 3, 3);
+            color:white;
+            padding:10px 20px;
+            border-radius:20px;
+            border:none;
+            transition:0.5s ease-in;
+
+        }
+        button:hover{
+            background-color: rgb(245, 238, 238);
+            color: red;
+            transform: translateY(10px);
+            font-weight: bolder;
+
+        }
+        .btn-full{
+            background-color:rgb(15, 14, 14);
+            color:white;
+            padding:10px 20px;
+            border-radius:20px;
+            border:none;
+            transition:0.5s;
+            font-weight: lighter;
+            text-decoration:none;
+            transition:0.5s ease-in;
+
+        }
+        .btn-full:hover{
+            background-color: white;
+            color: black;
+            transform:translateY(10px);
+            font-weight: bolder;
+        }
+        button{
+            display:inline-block;
+            margin-top: 10px;
+            
+        }
+        a{
+            display:inline-block;
+            margin-top: 10px;
+        }
+        .logo{
+
+	        position: absolute;
+	        width: 80px;
+	        height: 80px;
+	        border-radius: 50%;
+	        overflow: hidden;
+	        top: calc(100px/2);
+            left: calc(50% - 40px);
+        } 
+        span a{
+            margin-bottom: 650px;
+            color: black
+        }
+        span a:hover{
+            font-size:150%;
+            color:rgb(250, 5, 5)
+        }
+        .container{
+            margin:480px;
+        }
+        
+    </style>
+</head>
+<body>
+    <span><a href="index.html"><i class="fa-duotone fa-solid fa-house-chimney" style="font-size:24px"></i></a></span>
+    <div class="container">
+        <img src="logo.png" class="logo">
+        <h3><center><b>Sign Up</b></center></h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Your Name" required><br>
+            <label for="email">email:</label>
+            <input type="email" placeholder="Your Email" required><br>
+            <label for="gender">gender:</label>
+            <select name="gender" id="gender">
+                <option value="select">select</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>  
+            </select><br>
+            <label for="password">password</label>
+            <input type="password" name="password" placeholder="password:" required>
+            <button type="submit">Submit</button>
+            <a href="index.html" class="btn-full">Go Back</a>
+        </form>
+    </div>
+</body>
+</html>

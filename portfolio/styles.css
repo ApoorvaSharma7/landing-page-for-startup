@@ -1,0 +1,183 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* Navbar */
+header {
+    background: #0f0f0f;
+    color: #fff;
+    padding: 16px 0;
+    height: 98px;
+    width: 1519px;
+    position: fixed;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 8rem;
+    float: right;
+    font-weight: bold;
+    position: fixed;
+    right:20px;
+}
+
+#a1:hover {
+    text-decoration:underline #ff5722;
+    transform:skew(30deg)
+}
+
+#a2:hover{
+    text-decoration:underline #ff5722;
+    transform:skew(30deg)
+}
+
+#a3:hover{
+    text-decoration:underline #ff5722;
+    transform:skew(30deg)
+}
+
+.nav-links a, .cta-button {
+    color: #fff;
+    text-decoration: none;
+
+    
+}
+
+.cta-button {
+    background: #ff5722;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: all 1s ease-in ;
+    
+}
+
+.cta-button:hover {
+    background-color: #3c0404;
+    transform:translateY(10px,  5px);
+    color: #ff5722;
+
+}
+
+/* Hero Section */
+.hero {
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/546/433/desktop-wallpaper-aesthetic-red-pc-on-dog.jpg) no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 48px 0;
+    height: 400px
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-align: center;
+    margin-top: 98px;
+}
+
+.hero p {
+    font-size: 19px;
+    margin-bottom: 24px;
+}
+
+/* Features Section */
+.features {
+    padding: 32px 0;
+    background: #f9f9f9;
+}
+
+.features h3 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.feature-cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 24px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/soft-bokeh-background_23-2147493955.jpg);
+}
+
+/* About Section */
+.about {
+    padding: 32px 0;
+}
+
+.about h3 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 32px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea, .contact form button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact form button {
+    background: #ff5722;
+    color: #fff;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+}
+.logo
+{
+	height: 70px;
+	width: auto;
+	float: left;
+	border-radius: 50%;
+    position: fixed;
+    left:50px;
+}
+.name{
+    position:fixed
+}
